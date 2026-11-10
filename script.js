@@ -3,7 +3,7 @@ let index = 0;
 let loading = false;
 const batchSize = 10; // The number of images loaded per batch
 const initialBatchCount = 5; // The number of batches initially loaded
-const scrolldistance = 1000; // The distance from the bottom of the page to start loading more images
+const scrolldistance = 0; // The distance from the bottom of the page to start loading more images
 let currentImageIndex = 0;
 let loadedImages = [];
 let leftArrow;
@@ -11,7 +11,7 @@ let rightArrow;
 
 // Calculate the number of days since the start date
 function calculateLoveDays() {
-    const startDate = new Date('2020-01-01'); // **Love date**
+    const startDate = new Date('2025-11-12'); // **Love date**
     const today = new Date();
     startDate.setHours(0, 0, 0, 0);
     today.setHours(0, 0, 0, 0);
